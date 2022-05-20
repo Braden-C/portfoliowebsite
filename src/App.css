@@ -1,38 +1,232 @@
-.App {
-  text-align: center;
+/* Google Fonts setup */
+
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot);
+    /* For IE6-8 */
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+/* Main Page Styles */
+
+
+html {
+    scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+body {
+    height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.parallax {
+    background-image: url("/public/DarkTrees.jpg");
+    height: 100%;
+    /* create the Parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.37);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-me-container {
+    color: white;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    text-align: left;
+    padding: 100px 100px 0;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.secondary-button {
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}
+
+
+p {
+    font-size: 1.5rem;
+    text-align: -webkit-center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-me-container {
+    color: white;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+
+.nav-item {
+    text-align: right;
+}
+
+
+.py-5 {
+    padding-top: 10rem !important;
+    padding-bottom: 8rem !important;
+}
+
+
+.container-md {
+    width: 50%;
+}
+
+.img-container {
+    width: 500px;
+
+}
+
+.img-fluid {
+    border-radius: 10% 25%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.horizontal-rule {
+    border: none;
+    height: 0px;
+    box-shadow: 0 9px 1px 1px rgb(255, 255, 255);
+}
+
+.row {
+    max-width: 100%;
+    padding-bottom: 250px;
+    margin: 0px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3px !important;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+
+
+.information-container {
+    text-align: -webkit-center;
+    background-color: none;
+    padding-top: 200px;
+}
+
+.list-group {
+    max-width: 400px;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0 0 0 / 0%);
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+.icon-link {
+    color: #0dcaf0;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1.8rem;
+}
+
+
+/* || SCALING FOR MOBILE  */
+
+
+@media (max-width: 1100px) {
+
+    .about-me-container {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .cards {
+        width: 80%;
+    }
+
+    .img-container {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 250px;
+    }
+
+    .container-md {
+        padding-bottom: 100px;
+    }
+
+    .container-fluid {
+        justify-content: right !important;
+    }
 }
