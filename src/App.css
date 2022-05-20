@@ -99,6 +99,10 @@ p {
     text-align: center;
 }
 
+.contact {
+    margin-bottom: 60px;
+}
+
 
 .nav-item {
     text-align: right;
@@ -190,7 +194,7 @@ p {
 .icon-link {
     color: #0dcaf0;
     text-decoration: none;
-    padding-right: 20px;
+    padding-right: 15px;
     font-size: 1.8rem;
 }
 
