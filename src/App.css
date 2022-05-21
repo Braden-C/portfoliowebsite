@@ -56,7 +56,7 @@ body {
 
 .parallax {
     background-image: url("/public/DarkTrees.jpg");
-    height: 100%;
+    /* height: 100%; */
     /* create the Parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -257,6 +257,7 @@ p {
 
     .header-container {
         margin-bottom: 0;
+        padding-top: 100px;
     }
 
     .cards {
