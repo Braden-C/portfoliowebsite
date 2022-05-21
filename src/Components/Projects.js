@@ -9,7 +9,7 @@ const Projects = () => {
                 <Header label="Projects" />
             </div>
             <div className="cards justify-content-evenly">
-                <div className="col-lg-3">
+                <div className="col-lg-3" id="main-card">
                     <div className="card">
                         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1200%2F1*smuMxL6qzvl-OUxTfuxHUg.jpeg&f=1&nofb=1" className="card-img-top" alt="..."></img>
                         <div className="card-body">
@@ -19,7 +19,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div >
-                <div className="col-lg-3">
+                <div className="col-lg-3" id="main-card">
                     <div className="card">
                         <img src=".\project2Logo.png" className="card-img-top" alt="..."></img>
                         <div className="card-body">

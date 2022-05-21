@@ -172,7 +172,7 @@ p {
     flex-direction: row;
     margin-bottom: 70px;
     justify-content: center;
-    padding-top: 250px;
+    padding-top: 200px;
 }
 
 .cards {
@@ -245,12 +245,26 @@ p {
         padding: 0;
     }
 
+    .technology-list {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
     .row {
         margin: 0;
     }
 
+    .header-container {
+        margin-bottom: 0;
+    }
+
     .cards {
         width: 80%;
+    }
+
+    #main-card {
+        padding-top: 75px;
     }
 
     .img-container {
@@ -260,6 +274,10 @@ p {
         width: 250px;
     }
 
+    /* .col-lg-3 {
+        padding-top: 125px;
+    } */
+
     .container-md {
         padding-bottom: 100px;
         width: 100%;
@@ -267,5 +285,9 @@ p {
 
     .container-fluid {
         justify-content: right !important;
+    }
+
+    .information-container {
+        padding: 0;
     }
 }
