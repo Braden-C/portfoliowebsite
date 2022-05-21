@@ -77,6 +77,33 @@ body {
     box-sizing: border-box;
 }
 
+.lead {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.sub-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.technology-list {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr auto;
+    grid-auto-flow: column;
+    padding: 0;
+    font-size: 1.5rem;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+.fas {
+    margin-right: 15px;
+    color: #0dcaf0;
+}
+
 .secondary-button {
     display: block;
     text-decoration: none;
@@ -92,8 +119,8 @@ p {
 
 .contact-me-container {
     color: white;
-    padding-top: 250px;
-    padding-bottom: 200px;
+    margin-top: 150px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -196,6 +223,15 @@ p {
     font-size: 1.8rem;
 }
 
+/* || ANIMATIONS */
+
+@keyframes slidein {}
+
+
+
+
+
+
 
 /* || SCALING FOR MOBILE  */
 
@@ -226,6 +262,7 @@ p {
 
     .container-md {
         padding-bottom: 100px;
+        width: 100%;
     }
 
     .container-fluid {
