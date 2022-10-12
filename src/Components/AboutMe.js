@@ -1,7 +1,5 @@
 import React from "react";
 import Header from "./Header";
-
-
 const technologies = [
     "HTML",
     "CSS",
@@ -28,7 +26,7 @@ const AboutMe = (props) => {
             <div className="container-md">
                 <Header label="About Me" />
                 <p className="Lead">
-                    <strong> Hello, i am a 27 year old Front-End developer based in central Colorado.</strong>
+                    <strong> Hello, I am a 27 year old Front-End developer based in central Colorado.</strong>
                     <span> I became interested in software/Web development at a very young age, My passion for technology and gaming has only grown over the years and lead me to pursue a career in tech.</span>
                 </p>
                 <span className="sub-header">Technologies: </span>
