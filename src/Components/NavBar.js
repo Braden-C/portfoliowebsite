@@ -17,7 +17,7 @@ const NavBar = (props) => {
                         <li className="nav-item">
                             <a className="nav-link" href="/#Contact">Contact</a>
                         </li>
-                        <a className="btn btn-outline-info" download="Braden Chapman Resume" role="button" href="Braden_Chapman_Resume.pdf">Resume</a>
+                        <a className="btn btn-outline-info" download="Braden Chapman Resume" role="button" href="public\Public-Web-Dev-Resume.pdf">Resume</a>
                     </ul>
                 </div>
             </div>
