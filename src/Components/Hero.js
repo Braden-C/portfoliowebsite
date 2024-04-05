@@ -13,7 +13,7 @@ const Hero = (props) => {
                                 <a className="btn btn-outline-light bg-opacity-25 btn-lg" role="button" href="mailto:bradencchapman@yahoo.com">Contact Me</a>
                             </div>
                             <div className="col col-lg-3">
-                                <a className="btn btn-outline-info bg-opacity-25 btn-lg" download="Braden Chapman Resume" role="button" href="%PUBLIC_URL%/Public-Web-Dev-Resume.pdf">Resume</a>
+                                <a className="btn btn-outline-info bg-opacity-25 btn-lg" download="Braden Chapman Resume" role="button" href="Braden_Chapman_Resume.pdf">Resume</a>
                             </div>
                         </div>
                     </div>
